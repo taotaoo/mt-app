@@ -8,3 +8,7 @@
   npm i -g npx
   npx create-nuxt-app mt-app
   ```
+* 使用babel解决es2015语法问题
+    * 在package.json中的启动命令中增加`--exec babel-node`
+    * 增加.babelrc文件，中内容`{"presets": ["es2015"]}`
+    * 安装依赖 `npm i babel-preset-es2015`
