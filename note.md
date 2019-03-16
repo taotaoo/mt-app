@@ -17,3 +17,8 @@
 * 增加支持scss
     * `npm i sass-loader node-sass`
 
+* 启动mongo
+    * `docker run -d --name mongo -v /Users/wangxin/1.learning/mongo:/data/db -p 27017:27107 mongo`
+
+* 安装redis
+    * `docker run -p 6379:6379 -v $/Users/wangxin/1.learning/redis:/data  -d redis:3.2 redis-server --appendonly yes`
